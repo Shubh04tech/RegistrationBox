@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: goldenrod;
+        }
+        .content
+{
+    background-color: rgba(70, 172, 240, 0.7); 
+    border: 5px solid #ffffff;
+    padding: 20px;
+    margin: auto;
+    width: 350px;
+    height: 400px;
+    text-align: left;
+    transition: all 0.3s ease;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+
+button:hover{
+    transform: translateY(0);
+    box-shadow: inset 0 0 60px #d34c47,
+                inset 20px 0 80px rgb(179, 106, 239),
+                inset -20px 0 80px #fefffe,
+                inset 20px 0 300px #bcf3ff,
+                inset -20px 0 300px #e8e074,
+                0 0 50px #ffeeee,
+                -10px 0 80px rgb(128, 193, 237),
+                10px 0 60px #dab7f1;
+}
+#username{
+    border: 2px solid ;
+}
+#LastName{
+    border: 2px solid ;
+}
+#email{
+    border: 2px solid ;
+}
+#pass{
+    border: 2px solid ;
+}
+h1{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Registration Form</h1>
+		<form action="/action"></form>
+        <label for="username">Username :</label>
+        <input type="text" placeholder="First name" id="username">
+        <br>
+        <br>
+        <label for="last name">Last Name :</label>
+        <input type="text" placeholder="Last Name" id="LastName">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Your Email" id="email">
+        <br>
+        <br>
+        <label for="pass">Password :</label>
+        <input type="password" placeholder="Your Password" id="pass">
+        <br>
+        <br>
+        Favourite Color : 
+        <input type="color" >
+        <br>
+        <br>
+        <button>Submit</button>
+	  </div>
+</body>
+</html>
